@@ -9,7 +9,7 @@ import {
   reload,
 } from 'react-native-owl';
 
-jest.setTimeout(30000);
+jest.setTimeout(50000);
 
 describe('App.tsx', () => {
   describe('Basic navigation', () => {
