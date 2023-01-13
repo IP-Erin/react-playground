@@ -4,15 +4,16 @@
  *
  * @format
  */
-const path = require("path");
+const path = require('path');
 
 // As the example project uses `link:../` for react-native-owl, which creates a symlink, we need to manually map the project so it is properly used my Metro.
 // This will not be required by other projects using react-native-owl installed from a package repository.
+// update
 
 const extraNodeModules = {
-  "react-native-owl": path.resolve(path.join(__dirname, "..")),
+  'react-native-owl': path.resolve(path.join(__dirname, '..')),
 };
-const watchFolders = [path.resolve(path.join(__dirname, "..", "dist"))];
+const watchFolders = [path.resolve(path.join(__dirname, '..', 'dist'))];
 
 module.exports = {
   transformer: {
