@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "cypress": "^11.2.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.1",
+    "react-native-owl": "^1.1.1"
+  }
+}
