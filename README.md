@@ -1,4 +1,4 @@
-# react-native-owl-demo
+# React Native Owl 🦉 Demo
 
 > A simple react-native app that uses _react-native-owl_ with examples. Also used for the development of the library.
 
